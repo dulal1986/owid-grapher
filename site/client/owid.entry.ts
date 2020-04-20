@@ -28,10 +28,12 @@ import { runRelatedCharts } from "./blocks/RelatedCharts/RelatedCharts"
 import { runLightbox } from "./Lightbox"
 import { runSiteTools } from "./SiteTools"
 import { runCovid } from "./covid/index"
+import { CovidChartBuilder } from "charts/CovidChartBuilder"
 
 declare var window: any
 window.Grapher = Grapher
 window.ChartView = ChartView
+window.CovidChartBuilder = CovidChartBuilder
 window.ExploreView = ExploreView
 window.App = window.App || {}
 window.runChartsIndexPage = runChartsIndexPage
