@@ -28,7 +28,7 @@ import { runRelatedCharts } from "./blocks/RelatedCharts/RelatedCharts"
 import { runLightbox } from "./Lightbox"
 import { runSiteTools } from "./SiteTools"
 import { runCovid } from "./covid/index"
-import { CovidChartBuilder } from "charts/CovidChartBuilder"
+import { CovidChartBuilder } from "charts/covidChartBuilder/CovidChartBuilder"
 
 declare var window: any
 window.Grapher = Grapher
